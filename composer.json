@@ -1,0 +1,30 @@
+{
+    "name": "ya-cha/livewire-async",
+    "description": "Extending the Laravel Livewire's component to load asynchronous",
+    "type": "library",
+    "require": {
+        "livewire/livewire": "^2.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "YaCha\\LivewireAsync\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jascha Gerles",
+            "email": "jascha.gerles@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YaCha\\LivewireAsync\\LivewireAsyncServiceProvider"
+            ],
+            "aliases": {
+                "LivewireAsync": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    }
+}
