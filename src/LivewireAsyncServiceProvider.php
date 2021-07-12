@@ -1,6 +1,6 @@
 <?php
 
-namespace YaCha\LivewireAsync;
+namespace TTM\LivewireAsync;
 
 use Illuminate\Support\ServiceProvider;
 

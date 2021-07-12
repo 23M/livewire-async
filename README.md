@@ -11,7 +11,7 @@ However, if you build multiple components with this behaviour, it feels kind of 
 You just want to run
 
 ```bash
-$ composer require yacha/livewire-async
+$ composer require 23m/livewire-async
 ```
 
 That's it.
@@ -26,13 +26,13 @@ $ php artisan livewire:make api.heroes
 
 After opening your component in `app/Http/Livewire/Api/Heroes`, there are only small changes needed:
 
-1. Your class should extend `YaCha\LivewireAsync\AsyncComponent` instead of `Livewire\Component`
+1. Your class should extend `TTM\LivewireAsync\AsyncComponent` instead of `Livewire\Component`
 1. Rename the method `render` to `renderAsync`
 
-Your component should look something like this: 
+Your component should look something like this:
 
 ```php
-use YaCha\LivewireAsync\AsyncComponent;
+use TTM\LivewireAsync\AsyncComponent;
 
 class Customer extends AsyncComponent
 {

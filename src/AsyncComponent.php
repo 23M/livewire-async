@@ -1,7 +1,7 @@
 <?php
 
 
-namespace YaCha\LivewireAsync;
+namespace TTM\LivewireAsync;
 
 
 use Illuminate\Contracts\Foundation\Application;
