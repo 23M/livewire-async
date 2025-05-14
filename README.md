@@ -1,3 +1,9 @@
+# Not maintained anymore
+
+This package is not maintained anymore because Livewire 3.0 is out. It has a built-in solution for async loading. See [Lazy Loading](https://livewire.laravel.com/docs/lazy) in the official documentation.
+
+---
+
 # Livewire Async
 
 We totally ❤️ [Livewire by Caleb Porzio](https://github.com/livewire/livewire).
